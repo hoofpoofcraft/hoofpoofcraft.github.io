@@ -8628,5 +8628,5 @@ a.icon.style2.svg-icon:active {
 }
 ul.icons li:has(a.svg-icon) {
     vertical-align: middle;
-    margin-top: -0.4em;
+    margin-top: -0.2em;
 }
