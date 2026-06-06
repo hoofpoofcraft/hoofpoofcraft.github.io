@@ -8602,23 +8602,21 @@ input, select, textarea {
 				box-shadow: none !important;
 			}
 
+a.icon.style2.svg-icon::before {
+    display: none !important;
+}
 a.icon.style2.svg-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 2.75em;
-    height: 2.75em;
-    border-radius: 50%;
-    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2);
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 2.75em !important;
+    height: 2.75em !important;
+    border-radius: 50% !important;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2) !important;
     transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
     text-decoration: none;
 }
 a.icon.style2.svg-icon:hover {
-    box-shadow: inset 0 0 0 1px #47D3E5;
-    color: #47D3E5;
-}
-a.icon.style2.svg-icon:active {
-    background-color: rgba(71,211,229,0.1);
-    box-shadow: inset 0 0 0 1px #47D3E5;
-    color: #47D3E5;
+    box-shadow: inset 0 0 0 1px #47D3E5 !important;
+    color: #47D3E5 !important;
 }
